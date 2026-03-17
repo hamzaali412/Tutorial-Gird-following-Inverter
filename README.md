@@ -24,7 +24,7 @@ The control system is implemented in the $dq$-reference frame and consists of:
     <img 
       src="diagram/main_diagram.png" 
       alt="System Control Diagram" 
-      style="background-color: #1a1b26; 
+      style="background-color: #161b22; 
              padding: 15px; 
              border-radius: 10px; 
              width: 75%; 
