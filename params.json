@@ -1,0 +1,43 @@
+{
+  "system": {
+    "VN": 18440.0,
+    "f": 60.0,
+    "Sn": 310000000.0,
+    "Lf": 0.000459,
+    "Rf": 0.00173,
+    "R_line_pu": 0.02852,
+    "X_line_pu": 0.0280846
+  },
+  "controller": {
+    "Tf_pll": 0.001,
+    "Tf_pq": 0.001,
+    "Kp_pq": 0.5,
+    "Tf_ig": 0.001
+  },
+  "disturbance": {
+    "phase_jump_time": 0.2,
+    "phase_jump_angle": 0.2,
+    "theta_grid_init": 0.1,
+    "Vmag_pu": 1.025,
+    "Vmag_dist":1.025
+  },
+  "references": {
+    "Pref_const": 1.63,
+    "Qref_const": 0.039,
+    "mode": "PQ",
+    "f_db": 0.0005,
+    "K_droop_f": 20.0,
+    "V_target": 1.068,
+    "Vdb": 0.01,
+    "K_droop_v": 20.0,
+    "Qmax_sup": 0.4
+},
+  "initial_conditions": {
+    "v_inv_0": 1.0686727498480264,
+    "theta_inv_0": 0.1407873198839095
+  },
+  "solver": {
+    "line_search_max_iter": 8,
+    "verbose": false
+  }
+}
