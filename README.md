@@ -77,7 +77,8 @@ cd Tutorial-Grid-Following-Inverter
 pip install -r requirements.txt
 
 # Run the code 
-python main.py```
+python main.py
+```
 
 
 ### ⚙️ Configuration & Parameter Tuning
