@@ -28,7 +28,7 @@ The control system is implemented in the $dq$-reference frame and consists of:
              padding: 20px; 
              border-radius: 10px; 
              width: 75%; 
-             border: 3px solid #d4af37;
+             border: 10px solid #d4af37;
              box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);"
     >
   </a>
