@@ -91,7 +91,9 @@ All simulation parameters are centralized in `params.json`. You can modify the s
 > 💡 **Advanced Tip:** In `main.py`, you can toggle `method="schur"`. This utilizes the Schur Complement to partition the 22x22 Jacobian matrix, solving the linear sub-problems more efficiently—a technique used in large-scale matrices and comparing the results with full-Newton Raphson.
 
 
+
 ### 📂 Repository Structure & File Descriptions
+
 
 | File | Description |
 | :--- | :--- |
@@ -105,7 +107,10 @@ All simulation parameters are centralized in `params.json`. You can modify the s
 | **`initialization.py`** | **Steady-State:** Solves for initial conditions and pre-charges integrators for a smooth $t=0$ start. |
 | **`helpers.py`** | **Utilities:** Contains DQ transformations, Jacobian evaluators, and numerical smoothing functions. |
 
+
+
 ## 📈 Simulation Performance & Case Studies
+
 
 <div align="center">
   <a href="diagram/constant_PQ_results.png">
