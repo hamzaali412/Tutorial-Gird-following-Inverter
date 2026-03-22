@@ -131,3 +131,7 @@ All simulation parameters are centralized in `params.json`. You can modify the s
     <code style="color: #d4af37;">Figure 2: Simulation results in constant PQ mode with changing grid angle.</code>
   </p>
 </div>
+
+### Citation 
+
+If you find this tutorial helpful, please cite the following code base and tutorial available at: ttps://arxiv.org/abs/2603.19132
